@@ -1,10 +1,23 @@
+
+.header-menu-link,
+.header-contact-link,
+.footer-logo,
+.header-logo {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;}
 
 body {
     font-family: "Roboto", sans-serif;
-    /*                heder                                */
+    color: #434455;
+    background-color: #fff;
 }
+
+
+    /*                heder                                */
+
 
 .header-logo {
     font-weight: 700;
@@ -32,6 +45,10 @@ body {
     color: #2e2f42;
 }
 
+.header-contact {
+    font-style: normal;
+}
+
 .header-contact-link {
     font-weight: 400;
     font-size: 16px;
@@ -43,7 +60,7 @@ body {
 /*                     hedere                               */
 
 /*                          hero                             */
-.hero-title {
+.hero {
     background-color: #2e2f42;
 }
 
@@ -58,13 +75,9 @@ body {
     color: #fff;
 }
 
-.hero-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background: #4d5ae5;
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
 }
 
 /*                          hero                             */
@@ -90,38 +103,37 @@ color: #2e2f42;
 /*  feature                                              */
 
 
-/*               tem      */
-
-.tem-title {
-    background-color: #f4f4fd;
+/*               team      */
+.team-item {
+    background-color: #fff;
 }
 
-.tem {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
 
-.tem-comand {
-    font-weight: 500;
+
+.team {background-color: #f4f4fd;}
+
+.team-title {font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;}
+
+
+.team-name {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
-}
+    color: #2e2f42;}
 
-.tem-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
+    .team-text {font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;}
+
 
 /*                tem                            */
 /*                 porfolio             */
